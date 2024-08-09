@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: "Dancing Script", cursive;
+
+}
+.bg-dotted-paper {
+  background-color: #f5f5f5;
+  background-image: radial-gradient(#888888 0.5px, transparent 0.5px);
+  background-size: 10px 10px;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
